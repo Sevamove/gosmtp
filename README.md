@@ -1,7 +1,5 @@
 # Send Microsoft Outlook email through SMTP protocol in Go
 
-<br>
-
 ## Used Libraries
 1. [Viper](github.com/spf13/viper)
 
@@ -25,9 +23,9 @@ $ touch secret.env
 2. In `secret.env` file, insert the outlook email address from which you are going to send emails. Also provide the password of that email (account) address. Then provide an email address of the recipient.
 
 ```bash
-EMAIL_USERNAME=<account_name>@<domain_name>
-EMAIL_PASSWORD=UnCrACKa6LE-Pa$$W00RD
-EMAIL_RECIPIENT=<account_name>@<domain_name>
+EMAIL_USERNAME="<account_name>@<domain_name>"
+EMAIL_PASSWORD="UnCrACKa6LE-Pa$$W00RD"
+EMAIL_RECIPIENT="<account_name>@<domain_name>"
 ```
 
 (optional) In `./email/types.go` append additional keys:
