@@ -8,7 +8,7 @@
 Clone the repo:
 
 ```bash
-$ git clone https://github.com/vsevdrob/
+$ git clone https://github.com/vsevdrob/go-smtp
 ```
 
 ## Prerequisites
