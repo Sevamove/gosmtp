@@ -8,7 +8,7 @@
 Clone the repo:
 
 ```bash
-$ git clone https://github.com/vsevdrob/go-smtp
+git clone https://github.com/vsevdrob/go-smtp
 ```
 
 ## Prerequisites
@@ -16,8 +16,8 @@ $ git clone https://github.com/vsevdrob/go-smtp
 1. After the `git clone` change directory and create `secret.env`:
 
 ```bash
-$ cd go-smtp
-$ touch secret.env
+cd go-smtp
+touch secret.env
 ```
 
 2. In `secret.env` file, insert the outlook email address from which you are going to send emails. Also provide the password of that email (account) address. Then provide an email address of the recipient.
@@ -47,7 +47,7 @@ type Env struct {
 Run commando after your `secret.env` is set up:
 
 ```bash
-$ go run main.go
+go run main.go
 ```
 
 ## Resources
