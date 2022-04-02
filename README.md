@@ -1,4 +1,4 @@
-# Send Microsoft Outlook email through SMTP protocol in Go
+# Send Microsoft Outlook email through SMTP in Go
 
 ## Used Libraries
 1. [Viper](github.com/spf13/viper)
